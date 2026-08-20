@@ -3,6 +3,7 @@ import matplotlib.pyplot as plt
 
 df=pd.read_csv("data/MOCK_DATA.csv")
 print(df)
+erihewrihgiewhrgihwehguewhguiheugi
 
 print("\nNumber of duplicate rows:", df.duplicated().sum())
 
