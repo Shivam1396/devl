@@ -13,7 +13,7 @@ print("\nNumber of duplicate rows:", df.duplicated().sum())
 duplicates = df.duplicated()
 print("duplicates:",duplicates)
 df=df.drop_duplicates()
-# in below both line use fillna concept when in place of name that is vacant or not defined just get the value as unknown
+# in below both line use fillna concept when in place of name that is vacant or not defined just get the value as unknown also same for the value in DOB . 
 df["Name"]=df["Name"].fillna("Unknown")
 df["DOB"]=df["DOB"].fillna("01-01-1990")
 print(df)
