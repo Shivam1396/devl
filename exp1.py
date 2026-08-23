@@ -2,6 +2,7 @@ import pandas as pd
 
 df=pd.read_csv("data/data/MOCK_DATA.csv")
 # in below line we just update the code
+# the syntax as followed df.loc[index , "key"]="value"
 df.loc[0 , "first_name"]="shiv"
 df.loc[2 , "gender"]="male"
 new_row = pd.DataFrame([{
