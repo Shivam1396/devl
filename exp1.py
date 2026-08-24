@@ -8,7 +8,7 @@ df.loc[2 , "gender"]="male"
 new_row = pd.DataFrame([{
     "id": 108,
     "first_name": "Aditi",
-    "last_name": "Sharma",
+    "last_name": "Sharma", uhyggtf
     "email": "aditi@example.com",
     "gender": "Female",
     "DOB": "1/1/2000",
