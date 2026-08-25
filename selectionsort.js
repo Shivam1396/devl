@@ -1,18 +1,18 @@
-let a = [1, 2, 43, 32, 100, 12];
-let n = a.length;
+let array= [1, 2, 43, 32, 100, 12];
+let n = array.length;
 
 for (let i = 0; i < n - 1; i++) {
   let min = i;
 
   for (let j = i + 1; j < n; j++) {
-    if (a[j] < a[min]) {
+    if (array[j] < array[min]) {
       min = j;
     }
   }
 
-  let temp = a[i];
-  a[i] = a[min];
-  a[min] = temp;
+  let temp = array[i];
+  array[i] = array[min];
+  array[min] = temp;
 }
 
-console.log(a);
+console.log(array);
