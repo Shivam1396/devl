@@ -10,7 +10,7 @@ function mergesort(a, left, right) {
     }
 }
 function merge(arr, left, mid, right) {
-    let leftArr = arr.slice(left, mid + 1)  gf
+    let leftArr = arr.slice(left, mid + 1)  
     let rightArr = arr.slice(mid + 1, right + 1)
     let i = 0, j = 0, k = left   
     while (i < leftArr.length && j < rightArr.length) {
